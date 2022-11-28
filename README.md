@@ -14,6 +14,7 @@ Cada Jupyter Notebook aborda um tópico específico de Álgebra Linear. A sequê
 Uma matriz real $A$ de ordem $mXn$ ($m$ por $n$) é uma tabela de $m.n$ números reais, dispostos em $m$ linhas e $n$ colunas, onde $m$ e $n \in \mathbb{Z}^+$. Uma matriz real de $m$ linhas e $n$ colunas pode ser representado por $A_{mXn}(R)$, que se lê "Matriz $A$ $m$ por $n$". Também podemos escrever $A = (a_{ij})$; onde $i$ é o índice de linha e $j$ é o índice de coluna. Ou ainda,
 
 $$
+A = 
 \begin{pmatrix}
 a_{1,1} & a_{1,2} & a_{1,3} & ... & a_{1,n} \\
 a_{2,1} & a_{2,2} & a_{2,3} & ... & a_{2,n} \\
@@ -43,6 +44,7 @@ A matriz linha é denominada vetor linha (ou simplesmente, vetor).
 Quando $n=1$, chamamos a matriz de matriz coluna.
 
 $$
+A = 
 \begin{pmatrix}
 a_1\\
 a_2\\
@@ -60,6 +62,7 @@ A matriz coluna pode ser denominada vetor coluna.
 Chamamos de matriz quadrada a matriz que tem o número de linhas igual ao número de colunas, isto é, $m=n$:
 
 $$
+A = 
 \begin{pmatrix}
 a_{1,1} & a_{1,2} &  ... & a_{1,n} \\
 a_{2,1} & a_{2,2} &  ... & a_{2,n} \\
@@ -128,6 +131,7 @@ $$
 -  <strong>Escalar</strong> quando $a_{ij} = k$, se $i = j$ e $0$, se $i \neq j$, onde $k$. Isto é, uma matriz escalar é diagonal e possui todos os elementos da diagonal principal iguais a um certo escalar $k$.
 
 $$
+A = 
 \begin{pmatrix}
 4  &  0  &  0 &  0 \\
 0  &  4  &  0 &  0 \\
@@ -137,3 +141,13 @@ $$
 $$
 
 Vale lembrar que que uma matriz escalar onde $k=1$ é chamada de matriz identidade. E é representada por $I_n$, ou simplesmente, $I$.
+
+$$
+I_n = 
+\begin{pmatrix}
+1  &  0  &  0 &  0 \\
+0  &  1  &  0 &  0 \\
+0  &  0  &  1 &  0 \\
+0  &  0  &  0 &  1 \\
+\end{pmatrix}
+$$

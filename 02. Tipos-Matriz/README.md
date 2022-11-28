@@ -15,6 +15,7 @@ A matriz linha é denominada vetor linha (ou simplesmente, vetor).
 Quando $n=1$, chamamos a matriz de matriz coluna.
 
 $$
+A = 
 \begin{pmatrix}
 a_1\\
 a_2\\
@@ -32,6 +33,7 @@ A matriz coluna pode ser denominada vetor coluna.
 Chamamos de matriz quadrada a matriz que tem o número de linhas igual ao número de colunas, isto é, $m=n$:
 
 $$
+A = 
 \begin{pmatrix}
 a_{1,1} & a_{1,2} &  ... & a_{1,n} \\
 a_{2,1} & a_{2,2} &  ... & a_{2,n} \\
