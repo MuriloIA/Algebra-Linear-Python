@@ -102,8 +102,6 @@ A =
 \end{pmatrix}
 $$
 
-Dada uma matriz quadrada $A_n = (a_{ij})$, dizemos que A é uma matriz:
-
 -  <strong>Triangular inferior</strong> quando $a_{ij} = 0$ se $i < j$, ou seja, possui todos elementos acima da diagonal principal nulos.
 
 $$
