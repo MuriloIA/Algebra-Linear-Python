@@ -1,16 +1,16 @@
 # Tipos de Matrizes 🐡
 
-Primeiramente definiremos os tipos de matrizes dados de acordo com o número de linhas e colunas. Seja $A_{mxn} = (a_{ij}), esta matriz pode ser:$
+Primeiramente definiremos os tipos de matrizes dados de acordo com o número de linhas e colunas. Seja $A_{mxn} = (a_{ij})$, esta matriz pode ser:
 
-### Matriz Linha
+## Matriz Linha
 
 Quando $m=1$, chamamos a matriz $A_{1xn}$ de matriz linha:
 
-#### $$A = (a_1, a_2, ..., a_n)$$
+### $$A = (a_1, a_2, ..., a_n)$$
 
 A matriz linha é denominada vetor linha (ou simplesmente, vetor).
 
-### Matriz Coluna
+## Matriz Coluna
 
 Quando $n=1$, chamamos a matriz de matriz coluna.
 
@@ -28,7 +28,7 @@ $$
 
 A matriz coluna pode ser denominada vetor coluna.
 
-### Matriz Quadrada  🦔
+## Matriz Quadrada
 
 Chamamos de matriz quadrada a matriz que tem o número de linhas igual ao número de colunas, isto é, $m=n$:
 
@@ -46,7 +46,7 @@ $$
 
 Dizemos que a matriz acima é uma matriz quadrada de ordem $n$, e escrevemos apenas $A_n$.
 
-#### - Destacamos numa matriz quadrada $A_n = (a_{ij})$ os seguintes elementos:
+### - Destacamos numa matriz quadrada $A_n = (a_{ij})$ os seguintes elementos:
 
 - Diagonal Principal: Formada pelos termos $a_{ii}$, ou seja, pelos termos onde os índices de linha e coluna são iguais.
 
@@ -57,7 +57,7 @@ Dizemos que a matriz acima é uma matriz quadrada de ordem $n$, e escrevemos ape
 <strong style="color: darkred;">Observação</strong>
 Toda matriz quadrada $A_n$, tem obrigatoriamente uma <i>diagonal principal</i> e uma <i>diagonal secundária</i>.
 
-### Matrizes Quadradas Especiais
+## Matrizes Quadradas Especiais
 
 Dada uma matriz quadrada $A_n = (a_{ij})$, dizemos que A é uma matriz:
 
@@ -102,12 +102,81 @@ $$
 -  <strong>Escalar</strong> quando $a_{ij} = k$, se $i = j$ e $0$, se $i \neq j$, onde $k$. Isto é, uma matriz escalar é diagonal e possui todos os elementos da diagonal principal iguais a um certo escalar $k$.
 
 $$
+A = 
 \begin{pmatrix}
 4  &  0  &  0 &  0 \\
 0  &  4  &  0 &  0 \\
 0  &  0  &  4 &  0 \\
-0  &  0  & 0 &  4 \\
+0  &  0  & 0  &  4 \\
 \end{pmatrix}
 $$
 
 Vale lembrar que que uma matriz escalar onde $k=1$ é chamada de matriz identidade. E é representada por $I_n$, ou simplesmente, $I$.
+
+$$
+A = 
+\begin{pmatrix}
+1  &  0  &  0 &  0 \\
+0  &  1  &  0 &  0 \\
+0  &  0  &  1 &  0 \\
+0  &  0  &  0 &  1 \\
+\end{pmatrix}
+$$
+
+## Matriz Oposta
+
+Data a matriz $A = (a_{ij}) \in M_{mxn}(R)$, dizemos que a matriz $B = (b_{ij}) \in M_{mxn}(R)$ é oposta de A se $b_{ij} = -a_{ij}$ para todo $i \in {1, 2, ..., m}$ e todo $j \in {1, 2, ..., n}$. Ou seja, os elementos da matriz oposta de $A$ são os elementos opostos aos elementos de $A$. Representamos a oposta de $A$ por $-A$.
+
+**Exemplo:**<br>
+
+A matriz oposta de 
+$
+A = 
+\begin{pmatrix}
+2  & 27 &  9\\
+-1 & 1  &  0\\
+3  & -7 &  4\\
+\end{pmatrix}
+$ é 
+$-A =
+\begin{pmatrix}
+-2  & -27 &  -9\\
+1   & -1  &  0\\
+-3  & 7   &  -4\\
+\end{pmatrix}
+$ 
+
+## Matriz Transposta
+
+Dada a matriz $A = (a_{ij}) \in M_{mxn}(R)$, dizemos que a matriz $B = (b_{ij}) \in M_{nxm}(R)$ é transposta de $A$ se $b_{ji} = a_{ij}$ para todo $i \in {1, 2, ..., m}$ e todo $j \in {1, 2, ..., n}$. Representamos a transposta de $A$ por $A^t$.
+
+**Exemplo:**
+
+A transposta de 
+$
+A = 
+\begin{pmatrix}
+2  & 5 &  \frac{2}{3}\\
+0 & \sqrt{7}  &  6\\
+\end{pmatrix}
+$ é 
+$A^t =
+\begin{pmatrix}
+2    &  0\\
+5    &  \sqrt{7}\\
+\frac{2}{3}   &  6\\
+\end{pmatrix}
+$ 
+
+##### Propriedades
+
+- $T_1$: $(A^t)^t = A$
+
+- $T_2$: $(A + B)^t = A^t + B^t$
+
+- $T_3$: $(\alpha A)^t = \alpha A^t$
+
+- $T_4$: $(AB)^t = A^tB^t$
+
+## Matriz Simétrica
+
