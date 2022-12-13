@@ -114,7 +114,7 @@ $$
 Vale lembrar que que uma matriz escalar onde $k=1$ é chamada de matriz identidade. E é representada por $I_n$, ou simplesmente, $I$.
 
 $$
-A = 
+I = 
 \begin{pmatrix}
 1  &  0  &  0 &  0 \\
 0  &  1  &  0 &  0 \\
