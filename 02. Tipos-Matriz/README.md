@@ -156,24 +156,25 @@ Dada a matriz $A = (a_{ij}) \in M_{mxn}(R)$, dizemos que a matriz $B = (b_{ij}) 
 
 **Exemplo:**
 
-A transposta de 
-$
+A transposta de
+
+$$
 A = 
 \begin{pmatrix}
 2  & 5 &  \frac{2}{3}\\
 0 & \sqrt{7}  &  6\\
 \end{pmatrix}
-$ 
+$$ 
 
 é 
 
-$A^t =
+$$A^t =
 \begin{pmatrix}
 2    &  0\\
 5    &  \sqrt{7}\\
 \frac{2}{3}   &  6\\
 \end{pmatrix}
-$ 
+$$
 
 ##### Propriedades
 
@@ -192,23 +193,24 @@ Dizemos que uma matriz $A = (a_{ij}) \in M_n(R)$ é simétrica se $A = A^t$, ist
 **Exemplo:**
 
 A matriz 
-$
+
+$$
 A = 
 \begin{pmatrix}
 2  & -1 & 3\\
 -1 & 1  & -7\\
 3  & -7 & 4\\  
 \end{pmatrix}
-$ 
+$$ 
 
 é simétrica, já que
 
-$A^t =
+$$A^t =
 \begin{pmatrix}
 2  & -1 & 3\\
 -1 & 1  & -7\\
 3  & -7 & 4\\  
 \end{pmatrix} = A
-$ 
+$$
 
 ## Matriz Antissimétrica
