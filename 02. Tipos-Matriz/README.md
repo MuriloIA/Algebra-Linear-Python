@@ -129,7 +129,8 @@ Data a matriz $A = (a_{ij}) \in M_{mxn}(R)$, dizemos que a matriz $B = (b_{ij}) 
 
 **Exemplo:**<br>
 
-A matriz oposta de 
+A matriz oposta de
+
 $$
 A = 
 \begin{pmatrix}
