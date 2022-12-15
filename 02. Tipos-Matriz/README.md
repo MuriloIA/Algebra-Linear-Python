@@ -130,24 +130,24 @@ Data a matriz $A = (a_{ij}) \in M_{mxn}(R)$, dizemos que a matriz $B = (b_{ij}) 
 **Exemplo:**<br>
 
 A matriz oposta de 
-$
+$$
 A = 
 \begin{pmatrix}
 2  & 27 &  9\\
 -1 & 1  &  0\\
 3  & -7 &  4\\
 \end{pmatrix}
-$ 
+$$
 
 é 
 
-$-A =
+$$-A =
 \begin{pmatrix}
 -2  & -27 &  -9\\
 1   & -1  &  0\\
 -3  & 7   &  -4\\
 \end{pmatrix}
-$ 
+$$
 
 ## Matriz Transposta
 
