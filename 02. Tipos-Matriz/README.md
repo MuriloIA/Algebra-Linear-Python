@@ -137,7 +137,10 @@ A =
 -1 & 1  &  0\\
 3  & -7 &  4\\
 \end{pmatrix}
-$ é 
+$ 
+
+é 
+
 $-A =
 \begin{pmatrix}
 -2  & -27 &  -9\\
@@ -159,7 +162,10 @@ A =
 2  & 5 &  \frac{2}{3}\\
 0 & \sqrt{7}  &  6\\
 \end{pmatrix}
-$ é 
+$ 
+
+é 
+
 $A^t =
 \begin{pmatrix}
 2    &  0\\
@@ -192,7 +198,10 @@ A =
 -1 & 1  & -7\\
 3  & -7 & 4\\  
 \end{pmatrix}
-$ é simétrica, já que
+$ 
+
+é simétrica, já que
+
 $A^t =
 \begin{pmatrix}
 2  & -1 & 3\\
