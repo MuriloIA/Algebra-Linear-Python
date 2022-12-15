@@ -180,3 +180,25 @@ $
 
 ## Matriz Simétrica
 
+Dizemos que uma matriz $A = (a_{ij}) \in M_n(R)$ é simétrica se $A = A^t$, isto é, $a_{ij} = a{ji}, \forall i, j \in \left\{1, 2, ..., n \right\}$.
+
+**Exemplo:**
+
+A matriz 
+$
+A = 
+\begin{pmatrix}
+2  & -1 & 3\\
+-1 & 1  & -7\\
+3  & -7 & 4\\  
+\end{pmatrix}
+$ é simétrica, já que
+$A^t =
+\begin{pmatrix}
+2  & -1 & 3\\
+-1 & 1  & -7\\
+3  & -7 & 4\\  
+\end{pmatrix} = A
+$ 
+
+## Matriz Antissimétrica
