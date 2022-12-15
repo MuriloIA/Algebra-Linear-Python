@@ -198,7 +198,7 @@ $$A = A^t$$
 
 isto é, 
  
-$$a_{ij} = a{ji}, \forall i, j \in \left\{1, 2, ..., n \right\}$$
+$$a_{ij} = a{ji}, \forall i, j \in 1, 2, ..., n$$
 
 **Exemplo:**
 
