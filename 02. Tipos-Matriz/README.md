@@ -224,3 +224,13 @@ $$A^t =
 $$
 
 ## Matriz Antissimétrica
+
+Dizemos que uma matriz $A = (a_{ij}) \in M_n(R)$ é antissimétrica se $A = -A^t$, isto é,
+
+$$
+f(n) =
+  \begin{cases}
+    0       & i=j\\
+    -a_{ij} & i\neq j
+  \end{cases}
+$$
